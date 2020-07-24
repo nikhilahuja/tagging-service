@@ -9,7 +9,7 @@ services:
             #- ./cassandra.yaml:/etc/cassandra/cassandra.yaml
         ports:
             - "9042:9042"
-        environment:
+        #environment:
             #- "MAX_HEAP_SIZE=256M"
             #- "HEAP_NEWSIZE=128M"
             #- CASSANDRA_SEEDS=node1
